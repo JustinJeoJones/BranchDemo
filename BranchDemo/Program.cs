@@ -1,5 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-int result = 0;
+//input
+int x = int.Parse(Console.ReadLine());
+int y = int.Parse(Console.ReadLine());
+
+int result = x + y;
 Console.WriteLine($"Your result is {result}");
